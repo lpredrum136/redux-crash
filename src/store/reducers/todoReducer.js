@@ -4,22 +4,6 @@ const initialState = {
 	todos: []
 }
 
-/*
-Todos.js: import {v4 as uuidv4} from 'uuid'
-{
-	id: uuidv4(),
-	title: ....
-	completed: false
-}
-
-todoReducer:
-case 'ADD_TODO':
-	them cong viec vao state.todos 
-
-todoActions:
-export const addTodo = newTodo 
-*/
-
 const todoReducer = (state = initialState, action) => {
 	switch (action.type) {
 		case GET_TODOS:
